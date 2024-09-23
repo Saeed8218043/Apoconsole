@@ -1,0 +1,20 @@
+[24-Jan-2024 10:26:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php:90
+Stack trace:
+#0 /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php(90): mysqli->__construct('localhost', 'apoconsole_main', 'iv$5iJ6lLoy]qOr...', 'apoconsole_main')
+#1 /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php(233): trqVendor->update_login()
+#2 /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/webhooks/orders/paid.php(69): trqVendor->__construct()
+#3 {main}
+  thrown in /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php on line 90
+[24-Jan-2024 10:27:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/inc/database.php:16
+Stack trace:
+#0 /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/inc/database.php(16): mysqli->__construct('localhost', 'apoconsole_main', 'iv$5iJ6lLoy]qOr...', 'apoconsole_main')
+#1 /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/webhooks/orders/paid.php(2): include_once('/home/apoconsol...')
+#2 {main}
+  thrown in /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/inc/database.php on line 16
+[24-Jan-2024 10:30:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php:86
+Stack trace:
+#0 /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php(86): PDO->__construct('mysql: host=loc...', 'apoconsole_main', 'iv$5iJ6lLoy]qOr...')
+#1 /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php(233): trqVendor->update_login()
+#2 /home/apoconsole/app.apoconsole.com/public/miniapp_shopify/webhooks/orders/paid.php(69): trqVendor->__construct()
+#3 {main}
+  thrown in /home/apoconsole/app.apoconsole.com/app/Http/Controllers/TrqTrait.php on line 86

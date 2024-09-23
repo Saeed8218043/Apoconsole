@@ -1,0 +1,156 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.8) url("../images/loader.gif") center no-repeat;
+}
+
+body {
+    text-align: center;
+}
+
+/* Turn off scrollbar when body element has the loading class */
+body.loading {
+    overflow: hidden;
+}
+
+/* Make spinner image visible when body element has the loading class */
+body.loading .overlay {
+    display: block;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+.section-template-card .card-title {
+    font-size: 20px;
+    font-family: fangsong;
+    font-weight: 900;
+    float: left;
+}
+
+.section-template-card .card-text {
+    font-size: 16px;
+    float: left;
+}
+
+.section_all_blocks {
+    background: lightyellow;
+}
+
+h2.mb-5.Table_headingTitle {
+    border-radius: 1vw 1vw 0vw 0vw;
+    background: #1F2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px !important;
+}
+
+.SHOPIFY_ALL_themesTable__DIV {
+    box-shadow: inset 0px 0px 10px 2px #4e4e4e;
+    /* height: 300px; */
+}
+
+.SHOPIFY_ALL_themesTable__DIV {
+    overflow: auto;
+    max-height: 300px;
+    height: 300px;
+    border-radius: 0vw 0vw 1vw 1vw;
+}
+
+thead.SHOPIFY_ALL_themesTable_Head {
+    background-color: #1F2937;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: lightyellow;
+}
+
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+}
+.svg_check_active{
+    font-size: 24px;
+}
+.section_updated_lastDate {
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 10px;
+}.section___shortCode_:hover {
+    font-size: 13px;
+    cursor: copy;
+    text-shadow: 1px 1px 6px #56ff00;
+}.section___shortCode_{
+    font-size: 13px;
+}
+.card.card-custom-background{
+    background: lightyellow !important;
+}
+.card-title-custom {
+    margin-bottom: 0px;
+    float: left;
+    /* padding-left: 20px; */
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}.card-text-custom {
+    float: left;
+    /* padding-left: 20px; */
+    text-transform: capitalize;
+    font-size: small;
+}
+/* .card-title {
+    float: left;
+    margin-right: 100%;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+} */
+
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */

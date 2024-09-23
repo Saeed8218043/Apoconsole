@@ -1,0 +1,2 @@
+[06-Dec-2023 05:55:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/apoconsole/app.apoconsole.com/public/install_shopify/token.php on line 41
+[06-Dec-2023 05:56:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/apoconsole/app.apoconsole.com/public/install_shopify/token.php on line 42
